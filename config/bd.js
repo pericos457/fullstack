@@ -4,10 +4,10 @@ class Database {
     constructor() {
         // Asegúrate de que los detalles de conexión sean correctos
         this.pool = new Pool({
-            user: 'postgrestienda',
+            user: 'postgres',
             host: 'localhost',
-            database: 'empleados',
-            password: 'admin',
+            database: 'ventasdb',
+            password: 'admin123',
             port: 5432,
         });
     }
